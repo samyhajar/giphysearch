@@ -6,8 +6,5 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'Welcome to Giphy Search';
-  performSearch(searchTerm: HTMLInputElement): void {
-    console.log(`User entered: ${searchTerm.value}`);
-}
+  title = 'giphyApi';
 }

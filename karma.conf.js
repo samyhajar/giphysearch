@@ -25,7 +25,7 @@ module.exports = function (config) {
       suppressAll: true // removes the duplicated traces
     },
     coverageReporter: {
-      dir: require('path').join(__dirname, './coverage/giphysearch'),
+      dir: require('path').join(__dirname, './coverage/giphyApi'),
       subdir: '.',
       reporters: [
         { type: 'html' },
