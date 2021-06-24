@@ -10,7 +10,7 @@ import { Subscription } from 'rxjs';
 export class GifsComponent implements OnInit, OnDestroy {
 
   gifs: any[] = [];
-  subscription: Subscription;
+  subscription = new Subscription();
 
   constructor(private dataService: Dataservice) { }
 
