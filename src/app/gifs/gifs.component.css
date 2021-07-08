@@ -3,9 +3,12 @@
     grid-template-columns: auto auto auto auto;
     width: 1000px;
     margin: 0 auto;
+    
 
 }
 
 .gif img {
     max-width: 250px;
 }
+
+
